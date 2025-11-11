@@ -13,6 +13,7 @@
 /* D with blue gradient */
 .logo .d {
   background: linear-gradient(90deg, #007bff, #3399ff);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
