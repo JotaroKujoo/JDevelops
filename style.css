@@ -1,3 +1,22 @@
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* J in dark gray */
+.logo .j {
+  color: #2f3336;
+}
+
+/* D with blue gradient */
+.logo .d {
+  background: linear-gradient(90deg, #007bff, #3399ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card {
     border: 1px solid #c2c2c2;
     border-radius: 8px;
