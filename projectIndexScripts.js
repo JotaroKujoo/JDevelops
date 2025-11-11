@@ -7,8 +7,16 @@ const projectList = [
         id: 1,
         name: "To-Do List",
         description: "A simple to-do list application to manage your tasks.",
-        link: "./todolist.html"
+        link: "./todolist.html",
+        img: './todoPhoto.PNG'
     },
+    {
+        id:2,
+        name: "Weather App",
+        description: "A simple weather application to check weather in a city",
+        link: "./weatherApp.html",
+        img: ''
+    }
     // Puedes añadir más proyectos aquí
 ];
 
@@ -25,7 +33,7 @@ function renderProjectCards() {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-        <img src="" alt="">
+        <img src="${project.img}" alt="">
         <h2>${project.name}</h2>
         <p>${project.description}</p>
         `;
