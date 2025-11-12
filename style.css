@@ -1,3 +1,33 @@
+#inputQuery{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#queryButton {
+   background: linear-gradient(45deg, hsl(193, 100%, 44%), #005cce);
+  color: white;
+  padding: 10px 21px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.weatherAppMain{
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.iconWeather {
+    width: 50px;
+    height: 50px;
+}
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
@@ -21,6 +51,7 @@
 .card {
     display:flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     border: 1px solid #c2c2c2;
     border-radius: 8px;
